@@ -15,22 +15,32 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
-        <main>
+      </header>
+      <main>
+        <div class="weather-app-data">
           <div>
-            <h1>Kathu</h1>
-            <p>
+            <h1 class="weather-app-city">Kathu</h1>
+            <p class="weather-app-details">
               Thursday 15:31, cloudy
               <br />
-              Humidity: 45%, Wind: 2.13km/h
+              Humidity: <strong>45%</strong>, Wind: <strong>2.13km/h</strong>
             </p>
-          </div>
-          <div>⛅ 20°C</div>
-        </main>
-      </header>
+          </div class="weather-app-temperature-container">
+          <div class="weatther-app-temperature">
+            <div class="weather-app-icon">⛅</div><div class="weather-app-temperature-value">20</div>
+            <div class="weather-app-unit">°C</div>
+        </div>
+      </main>
+
       <footer>
         This project was coded by
         <a href="https://github.com/KaoneSeane" target="_blank"> Kaone Seane</a>
