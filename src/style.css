@@ -2,11 +2,6 @@ body {
   background-color: rgb(236, 218, 236);
   font-family: "Roboto", sans-serif;
 }
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
 
 a {
   color: rgb(121, 28, 121);
