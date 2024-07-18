@@ -75,9 +75,9 @@ main {
   display: flex;
 }
 
-.weather-app-temperature {
+.weather-app-temperature-value {
   font-size: 88px;
-  margin-left: 10px;
+  margin-left: 20px;
   font-weight: bold;
 }
 
